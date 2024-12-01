@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+        <!-- Student Name -->
+        <EditText
+            android:id="@+id/studentNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/purple_700" />
+
+        <!-- Student Email -->
+        <EditText
+            android:id="@+id/studentEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Email"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/purple_700" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/studentPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/purple_700" />
+
+        <!-- Roll Number -->
+        <EditText
+            android:id="@+id/studentRollNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll Number"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/purple_700" />
+
+        <!-- Class Dropdown -->
+        <Spinner
+            android:id="@+id/classSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <!-- Courses Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Courses:"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/courseCheckboxLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveStudentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE STUDENT"
+            android:textColor="@android:color/white"
+            android:background="@color/green"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">vivo</string>
+    <string name="welcome_message_will_appear_here">Welcome message will appear here</string>
+    <string name="select_class">Select a Class</string>
+    <string name="save_attendance">Save Attendance</string>
+    <string name="select_date">Select Date</string>
+    <string name="attendance">Attendance:</string>
+    <string name="select_course">Select Course:</string>
+</resources>

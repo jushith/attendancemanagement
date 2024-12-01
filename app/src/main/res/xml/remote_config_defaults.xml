@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <!-- Parameter for displaying a welcome message in the app -->
+    <welcome_message>Hello, Welcome to our App!</welcome_message>
+
+    <!-- Parameter for controlling feature visibility -->
+    <feature_enabled>true</feature_enabled>
+
+    <!-- Parameter to set the default background color in hexadecimal (can be overridden remotely) -->
+    <background_color>#FFFFFF</background_color>
+</defaultsMap>

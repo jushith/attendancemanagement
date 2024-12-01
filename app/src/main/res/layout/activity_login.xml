@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#0B406A"
+    android:padding="16dp"
+    android:elevation="6dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMS"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white" />
+</LinearLayout>
+
+    <!-- Content Section -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_marginTop="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="24dp"
+    android:textColor="@color/black" />
+
+<EditText
+    android:id="@+id/emailInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:backgroundTint="#DADADA"
+android:background="@android:color/transparent"
+android:layout_marginBottom="16dp"
+android:padding="10dp"
+android:backgroundTintMode="src_atop" />
+
+<EditText
+    android:id="@+id/passwordInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:backgroundTint="#DADADA"
+android:background="@android:color/transparent"
+android:layout_marginBottom="24dp"
+android:padding="10dp"
+android:backgroundTintMode="src_atop" />
+
+<Button
+    android:id="@+id/loginButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="LOGIN"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:backgroundTint="#0B406A"
+android:padding="12dp" />
+</LinearLayout>
+
+    </LinearLayout>

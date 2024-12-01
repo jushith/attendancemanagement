@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/markAttendanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/editAttendanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Attendance"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/viewLowAttendanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Low Attendance"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+</LinearLayout>

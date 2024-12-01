@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008165343299",
+    "project_id": "vivo-709c9",
+    "storage_bucket": "vivo-709c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008165343299:android:7e679bab197b6b782d84f6",
+        "android_client_info": {
+          "package_name": "com.example.vivo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1OY4hOf6T4ruGKx3xNxjolEggwCl9BvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
